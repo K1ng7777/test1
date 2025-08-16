@@ -1,7 +1,7 @@
 {
   "name": "nodejs-sb",
   "version": "1.0.0",
-  "description": "node",
+  "description": "A Node.js app for Scalingo",
   "main": "index.js",
   "author": "eooce",
   "license": "MIT",
@@ -10,6 +10,10 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": ">=14"
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
